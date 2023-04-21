@@ -1,0 +1,217 @@
+.img-contenido .animate__rubberBand {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+.animate__rubberBand:hover {
+  animation-name: none;
+  /* Detener la animación actual */
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: pulse;
+}
+
+
+.animate__wobble {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+.animate__wobble:hover {
+  animation-name: none;
+  /* Detener la animación actual */
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: pulse;
+}
+
+@keyframes wobble {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animate__headShake {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+.animate__headShake:hover {
+  animation-name: none;
+  /* Detener la animación actual */
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: pulse;
+}
+
+@keyframes headShake {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animate__tada{
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+.animate__tada:hover {
+  animation-name: none;
+  /* Detener la animación actual */
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: pulse;
+}
+
+@keyframes tada {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+tada
+.animate__jello {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+.animate__jello:hover {
+  animation-name: none;
+  /* Detener la animación actual */
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: pulse;
+}
+
+@keyframes jello {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.animate__swing {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+.animate__swing:hover {
+  animation-name: none;
+  /* Detener la animación actual */
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: pulse;
+}
+
+@keyframes swing {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.shakeX {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+.animate__shakeX:hover {
+  animation-name: none;
+  /* Detener la animación actual */
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: pulse;
+}
+
+@keyframes shakeX {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.heartBeat {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+.animate__heartBeat:hover {
+  animation-name: none;
+  /* Detener la animación actual */
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: pulse;
+}
+
+@keyframes heartBeat {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animate__flash {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: fadeIn;
+  }
+  
+  .animate__flash:hover {
+	animation-name: none; /* Detener la animación actual */
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+	animation-name: pulse;
+  }
+  
+  @keyframes flash {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}

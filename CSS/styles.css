@@ -1,0 +1,860 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.7em;
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px red;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: left;
+}
+
+
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+li {
+  font-size: 1.25em;
+  text-align: left;
+}
+
+header {
+  background-color: rgb(62, 60, 60);
+}
+
+header .logo {
+  margin: 0;
+  padding: 15px 20px;
+  font-weight: bold;
+  color: red;
+  font-size: 1.6em;
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fff;
+
+
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+
+
+}
+
+header a:hover {
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fff;
+  color: red;
+}
+
+
+.color-acento {
+  color: red;
+  outline-color: rgba(49, 138, 172, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fff;
+}
+
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.container p {
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+}
+
+/* contenido */
+#contenido .container {
+  text-align: left;
+  color: white;
+
+}
+
+section {
+  background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+  padding: 200px 12px 80px;
+
+}
+
+
+
+/* cartas de los servicios */
+
+#servicios {
+  background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+  color: white;
+  text-align: center;
+}
+
+#servicios .container {
+  padding: 150px 12px;
+}
+
+#servicios .clasificacion {
+  gap: 2px;
+}
+
+#servicios h2 {
+  margin-top: 0;
+  font-size: 3.2em;
+}
+
+#servicios .carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+#servicios .carta1 {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+#servicios .carta2 {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+#servicios .carta3 {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+#servicios .horario {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+  margin: 30px;
+  border-radius: 15px;
+  background-color: #545347;
+  background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%);
+  background-size: cover;
+}
+
+#servicios .contactos {
+  background-position: center center;
+  background-size: cover;
+  border-radius: 15px;
+  background-color: #545347;
+  background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%);
+  background-size: cover;
+  width: 100%;
+  border: 30px;
+
+}
+
+.icono {
+  margin: 0;
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* imagenes servicios cartas */
+
+.carta:first-child {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../CSS/assets/image/frenos.jpeg");
+  background-size: cover;
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../CSS/assets/image/computarizado.jpeg");
+  background-size: cover;
+}
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../CSS/assets/image/overhaul.jpeg");
+  background-size: cover;
+}
+
+.carta1:first-child {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../CSS/assets/image/adquisicion.jpeg");
+  background-size: cover;
+}
+
+.carta1:nth-child(2) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../CSS/assets/image/inpeccion.jpeg");
+  background-size: cover;
+}
+
+
+
+.carta2:first-child {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../CSS/assets/image/aceite.jpeg");
+  background-size: cover;
+}
+
+.carta2:nth-child(2) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../CSS/assets/image/suspension.jpeg");
+  background-size: cover;
+}
+
+.carta2:nth-child(3) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../CSS/assets/image/electrico.jpeg");
+  background-size: cover;
+}
+
+/* imagenes index cartas */
+.carta3:first-child {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../CSS/assets/image/mision.jpeg");
+  background-size: cover;
+}
+
+.carta3:nth-child(2) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../CSS/assets/image/valores.PNG");
+  background-size: cover;
+}
+
+.carta3:nth-child(3) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../CSS/assets/image/taller1.jpg");
+  background-size: cover;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+/* Galeria Fotos */
+.galeria,
+.galeria1 {
+
+  height: calc(300px + 3em);
+  width: 260px;
+  margin: 1em auto;
+  border: 1px solid red;
+  position: relative;
+
+}
+
+.galeria1 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* footer container */
+
+footer {
+  background-color: red;
+}
+
+footer p {
+  margin: 0;
+  padding: 12px;
+  color: rgb(100, 100, 100);
+}
+
+footer .container {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.fa-brands {
+  padding: 10px;
+}
+
+.carro {
+  padding: 7px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+
+.formParrafo {
+  margin-bottom: 15px;
+  font-size: 19px;
+}
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+.wrapper {
+  margin: 150px auto;
+  width: 70%;
+
+}
+
+
+.text-box h2 {
+  font-size: 42px;
+}
+
+.text-box p {
+  font-size: 20px;
+  text-align: left;
+  text-justify: inter-word;
+  margin-left: 20px;
+}
+
+/* quitar linea dell button y colocar letra blanca */
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* estilo del button */
+button {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: #545347;
+  background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%);
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+
+.formulario__grupo {
+  margin: 25px;
+}
+
+.formulario__grupo p{
+  font-size: 0.8em;
+}
+
+
+.input-radio {
+  margin-right: 10px;
+  /* margin-bottom: 10px; */
+  margin-top: 20px;
+}
+
+
+.formulario__label {
+  /* display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer; */
+  font-size: 18px;
+  left: 10px;
+  transition: 0.5s ease-in-out all;
+  margin-bottom: 40px;
+
+
+
+}
+
+.formulario__grupo-input {
+  position: relative;
+}
+
+.formulario__input {
+
+  background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+  width: 100%;
+  font-size: 1rem;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  display: block;
+  color: white;
+
+}
+
+.formulario__input:focus {
+  border: 3px solid rgba(0, 255, 17, 0.913);
+  outline: none;
+  box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.formulario__input-error {
+  padding: 10px;
+  display: none;
+  /* ajustar la altura de la línea */
+  color: rgb(221, 60, 60);
+
+}
+
+.formulario__input-error-activo {
+  display: block;
+
+}
+
+.formulario__validacion-estado {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+  z-index: 100;
+  font-size: 16px;
+  opacity: 0;
+  z-index: 99;
+}
+
+.formulario__checkbox {
+  margin-right: 10px;
+}
+
+.formulario__grupo-terminos,
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+  width: 100%;
+  font-size: 1rem;
+  padding: 15px;
+}
+
+.formulario__mensaje {
+  height: 45px;
+  background: #F66060;
+  border-radius: 3px;
+  display: none;
+  padding: 10px;
+}
+
+
+.formulario__mensaje-activo {
+  display: block;
+}
+
+
+.formulario__mensaje p {
+  margin: 0;
+  font-size: 15px;
+
+}
+
+.formulario__grupo-btn-enviar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario__btn {
+
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: #545347;
+  background-image: linear-gradient(to right, #870000 0%, #190A05 51%, #870000 100%);
+}
+
+.formulario__btn:hover {
+  box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+}
+
+.formulario__mensaje-exito {
+  font-size: 14px;
+  color: #119200;
+  display: none;
+}
+
+.formulario__mensaje-exito-activo {
+  display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+  color: #1ed12d;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+  color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+  color: #bb2929;
+  opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+  border: 3px solid #bb2929;
+}
+
+.card {
+  width: 30%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* fotos */
+.box {
+  width: 60%;
+  height: 300px;
+  box-sizing: border-box;
+  border: 1px solid red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  background-size: 100% auto;
+}
+
+.box:nth-child(1) {
+  background-image: url("assets/image/taller3.jpg");
+  background-size: cover;
+}
+
+.box:nth-child(2) {
+  background-image: url("assets/image/taller.jpg");
+  background-size: cover;
+
+}
+
+.box:nth-child(3) {
+  background-image: url("assets/image/taller2.jpg");
+  background-size: cover;
+
+}
+
+.box:nth-child(4) {
+  background-image: url("assets/image/taller1.jpg");
+  background-size: cover;
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .box {
+
+    width: 40%;
+    height: 280px;
+    box-sizing: border-box;
+    float: right;
+    padding: 20px;
+    margin-left: 35px;
+  }
+  .clear {
+    clear: both;
+  }
+}
+
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* imagen mecanica en general */
+  #contenido .img-mecanica-general {
+    background-image: url("../CSS/assets/image/mantenimiento1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* imagen frenos */
+  #contenido .img-frenos {
+    background-image: url("../CSS/assets/image/frenos2.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* imagen diagnostico */
+  #contenido .img-diagnostico {
+    background-image: url("../CSS/assets/image/computarizado1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* imagen overhaul */
+  #contenido .img-overhaul {
+    background-image: url("../CSS/assets/image/overhaul1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* imagen adquisicion de vehiculo */
+  #contenido .img-adquisicion {
+    background-image: url("../CSS/assets/image/adquisicion.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+  /* imagen inspeccion */
+  #contenido .img-inspeccion {
+    background-image: url("../CSS/assets/image/ispeccion1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+
+
+  /* ------------------------------------------------------------------------------------------------------ */
+  /* imagen aceite */
+  #contenido .img-aceite {
+    background-image: url("../CSS/assets/image/aceite2.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* imagen suspension */
+  #contenido .img-suspension {
+    background-image: url("../CSS/assets/image/suspension2.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+
+  
+  /* imagen electrico */
+  #contenido .img-electrico {
+    background-image: url("../CSS/assets/image/electrico1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* imagen contactenos */
+  #contenido .img-contactenos {
+    background-image: url("../CSS/assets/image/logo_taller.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* imagen citas */
+  #contenido .img-citas {
+    background-image: url("../CSS/assets/image/logo_taller.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+
+
+
+    /* --------------------------------------------------------------------------------------------------------- */
+
+  /* imagen index */
+  #contenido .img-contenido {
+    background-image: url("../CSS/assets/image/quienes-somos.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* imagen mision y vision*/
+  #contenido .img-mision {
+    background-image: url("../CSS/assets/image/mision.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+
+  }
+
+  #contenido .img-vision {
+    background-image: url("../CSS/assets/image/vision.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------ */
+
+
+
+  /* imagen valores y objetivos*/
+  #contenido .img-mision {
+    background-image: url("../CSS/assets/image/valores.PNG");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+
+  }
+
+  #contenido .img-vision {
+    background-image: url("../CSS/assets/image/compromiso.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+    border: 1px solid red;
+
+  }

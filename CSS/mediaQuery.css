@@ -1,0 +1,422 @@
+/* ***************************************************************************** */
+/* computadora 
+cuando el minimo ya no sea 720px o menos, haga esto*/
+/* responsi */
+
+@media (min-width: 720px) {
+  header {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+
+  div button {
+    padding: auto;
+  }
+
+  .boton {
+    margin-top: 66px;
+  }
+
+  .boton2 {
+    margin-top: 48px;
+  }
+
+  .boton3 {
+    margin-top: 40px;
+  }
+
+  .boton4 {
+    margin-top: 75px;
+
+  }
+
+  .boton5 {
+    margin-bottom: 10px;
+
+  }
+
+  /* contenido */
+  #contenido .container {
+    text-align: center;
+  }
+
+  /* contenido */
+  #contenido .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #contenido .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  #contenido h2 {
+    margin-top: 0px;
+  }
+
+  .clock {
+    margin-top: 60px;
+  }
+
+
+
+
+  /* --------------------------------------------------------------------------------------------------------- */
+
+  /* imagen index */
+  #contenido .img-contenido {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* imagen mision y vision*/
+  #contenido .img-mision {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+
+  }
+
+  #contenido .img-vision {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+  /* ------------------------------------------------------------------------------------------------------------ */
+
+
+
+  /* imagen valores y objetivos*/
+  #contenido .img-mision {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+
+  }
+
+  #contenido .img-vision {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+ 
+
+  /* ------------------------------------------------------------------------------------------------------------ */
+  /* imagen mecanica en general */
+  #contenido .img-mecanica-general {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* imagen frenos */
+  #contenido .img-frenos {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* imagen diagnostico */
+  #contenido .img-diagnostico {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* imagen overhaul */
+  #contenido .img-overhaul {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* imagen adquisicion de vehiculo */
+  #contenido .img-adquisicion {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+  /* imagen inspeccion */
+  #contenido .img-inspeccion {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+
+  /* ------------------------------------------------------------------------------------------------------ */
+  /* imagen aceite */
+  #contenido .img-aceite {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* imagen suspension */
+  #contenido .img-suspension {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* imagen electrico */
+  #contenido .img-electrico {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* imagen contactenos */
+  #contenido .img-contactenos {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+  /* ----------------------------------------------------------------------------------------------------- */
+
+  /* imagen citas */
+  #contenido .img-citas {
+    width: 500px;
+    float: left;
+    right: auto;
+    border-radius: 50%;
+  }
+
+  /* ------------------------------------------------------------------------------------------------------ */
+
+  /* cartas servicio */
+  #servicios .clasificacion {
+    display: flex;
+    justify-content: center center;
+  }
+
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+
+  #servicios h2 {
+    font-size: 4em;
+  }
+
+  #servicios h3 {
+    margin-top: 0;
+  }
+
+
+  /* ---------------------------------------------------------------------------------------------------------- */
+  /* estilo backgroud de las cartas*/
+  #servicios .carta {
+    /* padding: 50px; */
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+
+
+  }
+
+  #servicios .carta1 {
+    /* padding: 50px; */
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+
+
+  }
+
+  #servicios .carta2 {
+    /* padding: 50px; */
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+
+
+  }
+
+  #servicios .carta3 {
+    /* padding: 50px; */
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+
+
+
+  }
+
+  #servicios .horario {
+    /* padding: 50px; */
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+
+  }
+
+  .horario h3 {
+    margin-top: 50px;
+  }
+
+  /* ---------------------------------------------------------------------------------------------------------- */
+  /* imagenes servicios cartas */
+
+  .carta:first-child {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../CSS/assets/image/frenos.jpeg");
+  }
+
+  .carta:nth-child(2) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../CSS/assets/image/computarizado.jpeg");
+  }
+
+  .carta:nth-child(3) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../CSS/assets/image/overhaul.jpeg");
+  }
+
+  .carta1:first-child {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../CSS/assets/image/adquisicion.jpeg");
+  }
+
+  .carta1:nth-child(2) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../CSS/assets/image/inpeccion.jpeg");
+  }
+
+
+
+  .carta2:first-child {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../CSS/assets/image/aceite.jpeg");
+  }
+
+  .carta2:nth-child(2) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../CSS/assets/image/suspension.jpeg");
+  }
+
+  .carta2:nth-child(3) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../CSS/assets/image/electrico.jpeg");
+  }
+
+
+
+  /* --------------------------------------------------------------------------------------------------------- */
+  /* imagenes index cartas */
+  .carta3:first-child {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../CSS/assets/image/vision.jpeg");
+  }
+
+  .carta3:nth-child(2) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../CSS/assets/image/valores.PNG");
+  }
+
+  .carta3:nth-child(3) {
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+      url("../CSS/assets/image/taller3.jpg");
+  }
+
+  /* footer */
+  footer .container {
+    justify-content: flex-end;
+  }
+
+
+  
+
+}

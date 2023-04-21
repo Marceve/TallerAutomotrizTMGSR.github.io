@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="En este sitio podrás encontrar infromación sobre los servicios mecánicos en general">
+    <meta name="keywords"
+        content="mecanica en general, cambio de aceite para el vehiculo, suspension para el vehiculo, sistemas de frenos para el vehiculo, llevar a reinspección técnica, overhaul, diagnostico computarizado para el vehiculo, reparaciones para el vehiculo, mantenimiento en general del vehiculo">
+    <title>Contáctenos</title>
+
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <!-- media Query -->
+    <link rel="stylesheet" href="CSS/mediaQuery.css">
+
+    <link rel="stylesheet" href="CSS/animaciones.css">
+
+    <!-- Archivo que esta alojado en internet y lo enlazamos al HTML Animate.css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Add Favicon -->
+    <link rel="shortcut icon" href="assets/image/favicon.icon.JPG" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">
+                <ion-icon name="logo-model-s"></ion-icon> TORO MOTOR GARAGE
+            </p>
+            <nav>
+                <a href="index.html">¿Quienes Somos?</a>
+                <a href="horario.html">Horario de Atención</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="agendarCita.html">Agendar Cita</a>
+                <a href="contactenos.html">Contáctenos</a>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section id="contenido">
+        <div class="container">
+            <div class="img-contactenos animate__animated animate__swing"></div>
+            <div class="texto">
+                <form action="" class="formulario" id="formulario">
+
+                    <!-- Grupo: Nombre -->
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Nombre</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="nombre" id="nombre"
+                                placeholder="Evelyn Paniagua">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El nombre solo puede tener letras y espacios</p>
+                    </div>
+
+                    <!-- Grupo: Correo Electronico -->
+                    <div class="formulario__grupo" id="grupo__correo">
+                        <label for="correo" class="formulario__label">Correo Electrónico</label>
+                        <div class="formulario__grupo-input">
+                            <input type="email" class="formulario__input" name="correo" id="correo"
+                                placeholder="nombre@correo.com">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos,
+                            guiones y guion bajo.</p>
+                    </div>
+
+                    <!-- Grupo: Teléfono -->
+                    <div class="formulario__grupo" id="grupo__telefono">
+                        <label for="telefono" class="formulario__label">Teléfono</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="telefono" id="telefono"
+                                placeholder="85471532">
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El telefono solo puede contener numeros, minimo 7 digitos y maximo
+                            14
+                            dígitos.</p>
+                    </div>
+
+                    <!-- Grupo: Radio Consulta -->
+                    <div class="formulario__grupo">
+                        <div class="formulario__grupo-input">
+                            <label for="" class="formulario__label">Seleccione porque nos contacta</label>
+                            <div>
+                                <input type="radio" name="a" id="servicio" class="input-radio">
+                                <label for="servicio" class="formulario__label">Consulta</label>
+                            </div>
+
+
+                            <div>
+                                <input type="radio" name="a" id="servicio" class="input-radio">
+                                <label for="servicio" class="formulario__label">Garatía</label>
+                            </div>
+
+
+                            <div>
+                                <input type="radio" name="a" id="servicio" class="input-radio">
+                                <label for="servicio" class="formulario__label">Reclamo</label>
+
+                            </div>
+
+                            <div>
+                                <input type="radio" name="a" id="servicio" class="input-radio" checked>
+                                <label for="servicio" class="formulario__label">Otros</label>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Grupo: Comentarios -->
+                    <div class="formulario__grupo" id="grupo__comentario">
+                        <label for="comentario" class="formulario__label">Anote sus comentarios</label>
+                        <div class="formulario__grupo-input">
+                            <textarea class="formulario__input" name="comentario" id="comentario" cols="30"
+                                rows="10"></textarea>
+                            <!-- Icono fa-times-circle = x-->
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <!-- Mostrar el error -->
+                        <p class="formulario__input-error">El comentario solo puede tener letras y espacios</p>
+                    </div>
+
+
+
+                    <!-- Grupo: Terminos y Condiciones -->
+                    <div class="formulario__grupo" id="grupo__terminos">
+                        <!-- cuando se marque, marquen el input, por so va dentro del label -->
+                        <label class="formulario__label">
+                            <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                            Acepto los Terminos y Condiciones
+                        </label>
+                    </div>
+
+                    <!-- Grupo: Acepto condiciones -->
+                    <div class="formulario__mensaje" id="formulario__mensaje">
+                        <!-- Icono y parrafo de error <b> en negrita-->
+                        <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario
+                            correctamente. </p>
+                    </div>
+
+                    <!-- Grupo: Boton -->
+                    <div class="formulario__grupo formulario__grupo-btn-enviar">
+                        <button type="submit" class="formulario__btn">Enviar</button>
+                        <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado
+                            exitosamente!</p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="servicios">
+        <div class="container">
+            <div class="clasificacion">
+                <div class="contactos">
+                    <h3><i class="fa-sharp fa-solid fa-location-dot icono"></i>San Ramón de Alajuela, Calle Orozco, 100
+                        metros sur y 75 metros oeste de la Beneficio Café de Altura</h3>
+
+                </div>
+                <div class="contactos">
+                    <h3><i class="fa-sharp fa-solid fa-phone icono"></i>8785-4130 </h3>
+                    <h3><i class="fa-sharp fa-solid fa-envelope icono"></i>joniermolina3@gmail.com</h3>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>
+                <ion-icon class="carro" name="logo-model-s"></ion-icon>Servicio Automotriz Toro Motor Garage <i
+                    class="fa-brands fa-facebook"></i> <i class="fa-brands fa-whatsapp"></i><i
+                    class="fa-brands fa-google"></i>
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="javascript/formulario.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/607692ffd1.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</body>
+
+</html>
